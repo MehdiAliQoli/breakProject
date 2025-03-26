@@ -1,0 +1,89 @@
+body{
+    background-color: aqua;
+}
+#main{
+   margin-left: 300px;
+   margin-top: 30px;
+    height: 450px;
+    width: 450px;
+    /* border: 1px solid green; */
+}
+#row1{
+    height: 150px;
+    width: 450px;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+#row1 div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    color: azure;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+
+#row2{
+    height: 150px;
+    width: 450px;
+    /* border: 1px solid blue; */
+    
+    display: flex;
+}
+
+#row2 div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    color: azure;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#row3{
+    height: 150px;
+    width: 450px;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+
+#row3 div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    color: azure;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#GameName{
+margin-left: 450px;
+/* margin-top: 50px; */
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+#btn{
+
+    height: 25px;
+    width: 100px;
+    background-color: rgb(126, 126, 250);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 450px;
+    color: white;
+border: 0px;
+
+}
+#btn:hover{
+    background-color: rgb(66, 210, 176);
+    cursor: pointer;
+    border: 0px;
+}
