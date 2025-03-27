@@ -1,9 +1,14 @@
+body{
+    background-color: rgb(194, 210, 210);
+}
 #main{
+    
 height: 500px;
 width: 500px;
 border: 1px solid green;
-/* margin: 1% auto; */
-
+margin: 5% auto;
+border-radius: 10px;
+background-color: rgb(187, 203, 192);
 }
 #input{
 font-size: 15px;
@@ -14,8 +19,10 @@ padding: 2%;
 margin: 2%;
 border: 0.5px solid black;
 border-radius: 5px;
+outline: none;
 
 }
+
 #Adder{
     width: 80px;
     height: 30px;
@@ -24,25 +31,38 @@ border-radius: 5px;
     border: 0.5px solid black;
     border-radius: 8px;
 }
-#Added{
-    height: 20px;
-width: 70%;
-padding: 2%;
-margin: 2%;
-border: 0.5px solid black;
-border-radius: 5px;
-display: flex;
-align-items: center;
-justify-content: center;
+
+
+#list li{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: medium;
+
 }
+
+
 #delete{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 30%;
     width: 80px;
     height: 30px;
     background-color: rgb(206, 86, 86);
     color: white;
     border: 0.5px solid black;
-    border-radius: 8px;
+    border-radius: 10px;
 
 }
-
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+}
+ul{
+    list-style-type: disc;
+}
+ul li::before{
+    content: "•";
+    color: green;
+    font-size: 20px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
